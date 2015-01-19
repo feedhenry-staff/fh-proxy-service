@@ -1,0 +1,16 @@
+{
+  "name": "fh-proxy-service",
+  "version": "0.0.0",
+  "description": "A service that acts as a secure proxy to private web services.",
+  "main": "./application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evan Shortiss",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.0.0",
+    "fh-mbaas-api": "4.7.1",
+    "fh-dev-proxy": "0.0.4"
+  }
+}
