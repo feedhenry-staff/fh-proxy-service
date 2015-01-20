@@ -25,8 +25,8 @@ service _must include_ the following headers:
 * **x-fh-proxy-api-key** - The API Key of the Service.
 * **x-fh-proxy-target** - The original host your request was aimed at. You must 
 omit the protocol and just supply the hostname.
-* **x-fh-proxy-protocol** - The original protocol of your request. Must be either 
-_http:_ or _https:_.
+* **x-fh-proxy-protocol** - The original protocol of your request. 
+Must be either _http:_ or _https:_
 
 As an example, say you wanted to get the private URL 
 _http://uat.private-webservice.com/api/users_ and it was accessible via your 
