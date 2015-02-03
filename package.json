@@ -11,6 +11,6 @@
   "dependencies": {
     "express": "4.0.0",
     "fh-mbaas-api": "4.7.1",
-    "fh-dev-proxy": "0.0.4"
+    "fh-dev-proxy": "0.0.10"
   }
 }
