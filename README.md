@@ -1,7 +1,9 @@
 FeedHenry Proxy Service
 =======================
 
-A service that can deployed on the FeedHenry platform to be used during local 
+A service based around the 
+[fh-dev-proxy](https://github.com/feedhenry-staff/fh-dev-proxy) module that
+can deployed on the FeedHenry platform to be used during local 
 development to proxy requests to private web services. Uses header 
 authorisation and only supports HTTPS requests to ensure secure access.
 
