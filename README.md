@@ -17,6 +17,13 @@ the linked _httpOverride.init_ means you don't need to change your coding style
 or manage the wrapping of requests yourself, which in turns means easier 
 development.
 
+#### Hosts Mapping with a Local HTTP Server
+You can also remap hosts via your hosts file or at runtime using your own logic 
+and run a local fh-dev-proxy HTTP server that will forward the requests onto 
+the cloud proxy instance for you. You can then start this local HTTP server as
+part of your Gruntfile _serve_ task.
+See [here](https://github.com/feedhenry-staff/fh-dev-proxy#cli-usage) for more 
+info.
 
 #### Manual Usage
 Alternatively you bypass the _httpOverride.init_ explained at the link above 
